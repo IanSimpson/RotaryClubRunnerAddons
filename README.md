@@ -3,7 +3,7 @@ These Addons add functionality and features to the standard Rotary ClubRunner Se
 
 Installation
 ---
-There are three areas to set up in ClubRunner. Log in to the ClubRunner Back End and go to the "Website" tab and select "Website Designer" to get started.
+There are four areas to set up in ClubRunner. Log in to the ClubRunner Back End and go to the "Website" tab and select "Website Designer" to get started.
 
 **Theme**
  1. Under "Themes" choose and activate *Rotary International Theme*
@@ -20,6 +20,14 @@ There are three areas to set up in ClubRunner. Log in to the ClubRunner Back End
  3. Under "Meta tag type" choose "Custom"
  4. Paste `<script src="https://cdn.rawgit.com/IanSimpson/RotaryClubRunnerAddons/master/custom.js" defer></script>` into the "Custom String" box
  5. Save
+
+ **Header**
+ 1. Under "Designer" click "Edit Banner"
+ 2. Click on "Add New Banner"
+ 3. Set "Banner Height" to 103px
+ 4. Upload your banner (size 716x103) to the "Left Logo" space
+ 5. Under "Banner Text", click the "Source" button and copy and paste `<div id="headerphone">0800 123 123</div>` (substituting in your own phone number)
+ 6. "Save and Publish"
 
 Widgets
 ---
