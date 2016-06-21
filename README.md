@@ -9,7 +9,7 @@ There are three areas to set up in ClubRunner. Log in to the ClubRunner Back End
  1. Under "Themes" choose and activate *Rotary International Theme*
 
 **CSS**
- 1. Save a copy of [import.css](https://raw.githubusercontent.com/IanSimpson/RotaryClubRunnerAddons/master/import.css) from this repository to your Desktop
+ 1. Save a copy of [RotaryClubRunnerAddonsImport.css](https://raw.githubusercontent.com/IanSimpson/RotaryClubRunnerAddons/master/RotaryClubRunnerAddonsImport.css) from this repository to your Desktop
  2. Under "Settings" choose the "Upload CSS" menu item
  3. Click on "Add CSS File"
  4. Choose the file you have just saved, and make sure you check "Make active" before saving.
