@@ -621,10 +621,14 @@ table#tblCalendar td.today-month-cell {
 #ctafooter .panel a.verb {
 	color: #ffb13c;
 }
-.project,
-.leadership,
-.explore {
 
+@media (max-width: 1150px) {
+	#ctafooter .panel {
+		margin-bottom: 60px;
+	}
+	#ctafooter .panel:last-child {
+		margin-bottom: 30px;
+	}
 }
 
 
