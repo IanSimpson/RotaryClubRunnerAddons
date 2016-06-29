@@ -561,6 +561,7 @@ table#tblCalendar td.today-month-cell {
 
 /***** CALL-TO-ACTION SUB-FOOTER *****/
 #ctafooter {
+	margin: 0 -20px;
 }
 #ctafooter .bgimage {
 	height: 250px;
