@@ -300,7 +300,7 @@ span[style="font-family:arial,helvetica,sans-serif"] {
 	height: 28px;
 }
 
-@media (max-width:450px) {
+@media (max-width:800px) {
 	#Menu {
 		padding-left: 10px;
 	}
