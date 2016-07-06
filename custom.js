@@ -1,4 +1,11 @@
 (function($) {
+	$('<a class="hamburger"></a>')
+		.appendTo($('.BannerContent'))
+		.click(function(event) {
+			event.preventDefault()
+			$('body').toggleClass('menuhidden')
+		})
+	$('body').toggleClass('menuhidden')
 	$('.magiccarousel').each(function() {
 		var $table = 	$(this),
 			$wrapper =	$(this).parent(),
