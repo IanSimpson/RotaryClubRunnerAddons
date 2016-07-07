@@ -518,6 +518,7 @@ span[style="font-family:arial,helvetica,sans-serif"] {
 	height: 160px;
 	overflow:hidden;
 	padding: 0;
+	margin-top: 10px;
 	text-align: center;
 }
 .HomeContentWrapper .storyItemContainer1~.clearboth2 {
@@ -840,6 +841,9 @@ table#tblCalendar td.today-month-cell {
 }
 .sidebarSocialLinks li.facebook a:before {
     content: "\f09a";
+}
+.sidebarSocialLinks li.email a:before {
+    content: "\f0e0";
 }
 
 /**** Magic Slider ****/
