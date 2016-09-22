@@ -482,6 +482,7 @@ span[style="font-family:arial,helvetica,sans-serif"] {
 	|
 
 .HomeContentWrapper .storyHeader a,
+.HomeContentWrapper .storyHeader a div,
 .HomeContentWrapper .rssItemContainer3 a,
 .HomeContentWrapper .rssItemaltContainer3 a {
 	font-family: 'Open Sans Condensed', sans-serif !important;
