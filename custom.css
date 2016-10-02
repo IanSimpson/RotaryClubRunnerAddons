@@ -535,7 +535,7 @@ span[style="font-family:arial,helvetica,sans-serif"] {
 	position: relative;
 }
 .rssBrief {
-	max-height: 144px;
+	max-height: 260px;
 	padding: 0;
 }
 .HomeContentWrapper .storyBody .storyBrief p {
@@ -562,8 +562,8 @@ span[style="font-family:arial,helvetica,sans-serif"] {
 
 .HomeContentWrapper .storyItemContainer1 .readMore,
 .HomeContentWrapper .storyItemaltContainer1 .readMore,
-.HomeContentWrapper .rssItemContainer3 a:after,
-.HomeContentWrapper .rssItemaltContainer3 a:after {
+.HomeContentWrapper .rssItemContainer3 > a:after,
+.HomeContentWrapper .rssItemaltContainer3 > a:after {
 	text-align: left;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -575,8 +575,8 @@ span[style="font-family:arial,helvetica,sans-serif"] {
 	padding-bottom: 35px;
 }
 
-.HomeContentWrapper .rssItemContainer3 a:after,
-.HomeContentWrapper .rssItemaltContainer3 a:after {
+.HomeContentWrapper .rssItemContainer3 > a:after,
+.HomeContentWrapper .rssItemaltContainer3 > a:after {
     text-align: center;
     background: #005DAA;
     border-radius: 5px;
@@ -592,6 +592,10 @@ span[style="font-family:arial,helvetica,sans-serif"] {
     bottom: 0;
     right: 0;
     content: "Read More...";
+}
+.HomeContentWrapper .rssItemContainer3 img,
+.HomeContentWrapper .rssItemaltContainer3 img {
+	margin-bottom: 5px !important;
 }
 
 /***** LEFT BAR *****/
