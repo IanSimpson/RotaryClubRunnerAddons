@@ -1,0 +1,62 @@
+.HomeContentWrapper .storyItemContainer1,
+.HomeContentWrapper .storyItemaltContainer1,
+.HomeContentWrapper .rssItemContainer1,
+.HomeContentWrapper .rssItemaltContainer1,
+.HomeContentWrapper .newsItemContainer1,
+.HomeContentWrapper .newsItemaltContainer1 {
+	width:32%;
+	float: left;
+	margin: 0 1%;
+	position: relative;
+	border-bottom: 0;
+}
+.HomeContentWrapper .storyItemContainer1:nth-child(3n+1),
+.HomeContentWrapper .storyItemaltContainer1:nth-child(3n+1),
+.HomeContentWrapper .rssItemContainer1:nth-child(3n+1),
+.HomeContentWrapper .rssItemaltContainer1:nth-child(3n+1),
+.HomeContentWrapper .newsItemContainer1:nth-child(3n+1),
+.HomeContentWrapper .newsItemaltContainer1:nth-child(3n+1) {
+	margin-left: 0;
+}
+.HomeContentWrapper .storyItemContainer1:nth-child(3n),
+.HomeContentWrapper .storyItemaltContainer1:nth-child(3n),
+.HomeContentWrapper .rssItemContainer1:nth-child(3n),
+.HomeContentWrapper .rssItemaltContainer1:nth-child(3n),
+.HomeContentWrapper .newsItemContainer1:nth-child(3n),
+.HomeContentWrapper .newsItemaltContainer1:nth-child(3n) {
+	margin-right: 0;
+}
+
+
+@media (max-width: 450px) {
+	.HomeContentWrapper .storyItemContainer1,
+	.HomeContentWrapper .storyItemaltContainer1,
+	.HomeContentWrapper .rssItemContainer1,
+	.HomeContentWrapper .rssItemaltContainer1,
+	.HomeContentWrapper .newsItemContainer1,
+	.HomeContentWrapper .newsItemaltContainer1 {
+		width:100%;
+		float: none;
+		margin: 1em 0;
+	}
+}
+
+.HomeContentWrapper .storyItemContainer1 .readMore,
+.HomeContentWrapper .storyItemaltContainer1 .readMore,
+.HomeContentWrapper .rssItemContainer3 > a:after,
+.HomeContentWrapper .rssItemaltContainer3 > a:after {
+	text-align: left;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.HomeContentWrapper .rssItemContainer3,
+.HomeContentWrapper .rssItemaltContainer3 {
+	padding-bottom: 35px;
+}
+
+.HomeContentWrapper .rssItemContainer3 img,
+.HomeContentWrapper .rssItemaltContainer3 img {
+	margin-bottom: 5px !important;
+}
