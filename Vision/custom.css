@@ -17,6 +17,7 @@
 .HomeContentWrapper .newsItemContainer1:nth-child(3n+1),
 .HomeContentWrapper .newsItemaltContainer1:nth-child(3n+1) {
 	margin-left: 0;
+	clear: both;
 }
 .HomeContentWrapper .storyItemContainer1:nth-child(3n),
 .HomeContentWrapper .storyItemaltContainer1:nth-child(3n),
@@ -59,4 +60,29 @@
 .HomeContentWrapper .rssItemContainer3 img,
 .HomeContentWrapper .rssItemaltContainer3 img {
 	margin-bottom: 5px !important;
+}
+.HomeContentWrapper .rssItemContainer3 > a:after,
+.HomeContentWrapper .rssItemaltContainer3 > a:after {
+    text-align: center;
+    background: #005DAA;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "Read More...";
+}
+.HomeContentWrapper .rssItemContainer3 p a,
+.HomeContentWrapper .rssItemaltContainer3 p a {
+  display:none;
+}
+.rssItemContainer1, .rssItemaltContainer1 {
+  padding:0;
 }
