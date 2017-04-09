@@ -1,12 +1,13 @@
 @font-face {
-    font-family: 'icomoon';
-    src:    url('icomoon.eot?iq38xf');
-    src:    url('icomoon.eot?iq38xf#iefix') format('embedded-opentype'),
-        url('icomoon.ttf?iq38xf') format('truetype'),
-        url('icomoon.woff?iq38xf') format('woff'),
-        url('icomoon.svg?iq38xf#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'FontAwesome';
+	src:	url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot');
+	src:	url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot#iefix') format('embedded-opentype'),
+			url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf') format('truetype'),
+			url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2') format('woff2'),
+			url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff') format('woff'),
+			url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.svg#FontAwesome') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 /***** TYPOGRAPHY *****/
@@ -16,8 +17,8 @@ body,
 .RITheme input,
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, #Menu li.t-item, #loginContainer1, #rights {
 	font-family: 'Open Sans', Arial,Helvetica, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 body,
 .RITheme div:not(.widget-title),
