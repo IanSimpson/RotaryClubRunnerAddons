@@ -17,7 +17,7 @@ There are four areas to set up in ClubRunner. Log in to the ClubRunner Back End 
  1. Under "Settings" choose the "Edit Meta Tags" menu item
  2. Click on "Add"
  3. Under "Meta tag type" choose "Custom"
- 4. Paste `<script src="https://cdn.rawgit.com/IanSimpson/RotaryClubRunnerAddons/master/custom.js" defer></script>` into the "Custom String" box
+ 4. Paste `<script src="https://cdn.jsdelivr.net/gh/IanSimpson/RotaryClubRunnerAddons/custom.js" defer></script>` into the "Custom String" box
  5. Save
 
 ### Header
